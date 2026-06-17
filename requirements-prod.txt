@@ -1,0 +1,25 @@
+# Production Requirements for Render
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-Mail==0.9.1
+Werkzeug==3.0.1
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+cloudinary==1.37.0
+pandas==2.1.4
+numpy==1.26.2
+matplotlib==3.8.2
+seaborn==0.13.0
+reportlab==4.0.8
+Pillow==10.1.0
+gunicorn==21.2.0
+python-dotenv==1.0.0
+requests==2.31.0
+python-dateutil==2.8.2
+email-validator==2.1.0.post1
+itsdangerous==2.1.2
+MarkupSafe==2.1.3
+Jinja2==3.1.2
+click==8.1.7
+blinker==1.7.0
