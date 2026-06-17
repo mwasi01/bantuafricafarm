@@ -1,0 +1,87 @@
+# Core Framework
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-Mail==0.9.1
+Werkzeug==3.0.1
+
+# Database
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+# For MySQL if needed:
+# PyMySQL==1.1.0
+# mysqlclient==2.2.0
+
+# Cloud Storage for Photos
+cloudinary==1.37.0
+
+# Authentication & Security
+bcrypt==4.1.2
+PyJWT==2.8.0
+cryptography==41.0.7
+
+# Data Processing & Analytics
+pandas==2.1.4
+numpy==1.26.2
+openpyxl==3.1.2
+xlrd==2.0.1
+xlwt==1.3.0
+
+# Visualization & Charts
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# PDF Generation
+reportlab==4.0.8
+
+# File Handling
+python-magic==0.4.27
+Pillow==10.1.0
+
+# Date/Time Utilities
+python-dateutil==2.8.2
+
+# HTTP Requests (for APIs)
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Email Support
+email-validator==2.1.0.post1
+
+# Security Headers
+Flask-Talisman==1.1.0
+
+# CORS Support (if needed for mobile apps)
+Flask-CORS==4.0.0
+
+# Task Scheduling (for background jobs)
+APScheduler==3.10.4
+
+# CSV Handling
+csvkit==1.5.0
+
+# Data Validation
+cerberus==1.3.5
+
+# Password Hashing
+passlib==1.7.4
+
+# Logging
+colorlog==6.8.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Deployment
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Additional Utilities
+itsdangerous==2.1.2
+MarkupSafe==2.1.3
+Jinja2==3.1.2
+click==8.1.7
+blinker==1.7.0
